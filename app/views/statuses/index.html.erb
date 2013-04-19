@@ -1,0 +1,13 @@
+<h1>Statuses</h1>
+
+<%= select_tag :user, options_from_collection_for_select(@users, :id, :name), :prompt => "All", :id => 'user-select'%>
+
+<div id='statuses'>
+  <%= render :partial => 'show', :collection => @statuses, :as => :status %>
+</div>
+
+<script type="text/javascript">
+  $(function() {
+    new Cuny.StatusList($('#user-select'));
+  });
+</script>
