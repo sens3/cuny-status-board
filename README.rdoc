@@ -1,1 +1,1 @@
-Example app from CUNY TAP lecture 2013-4-19
+Example app from CUNY TAP lecture 2013-4-19 http://cuny-sens3.herokuapp.com/
